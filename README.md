@@ -11,18 +11,17 @@ Spring boot is a framework to implements dependency injection on java project. I
 ### Get all existing books
 Method : `GET`  
 Endpoint : `http://localhost:8080/book/`
-![get all books](![01](https://user-images.githubusercontent.com/98227153/216468937-36fbf9ab-ab78-4ad4-b853-d72d9b4eeba9.png))
+![get all books](https://raw.githubusercontent.com/kucinghitam13/spring-boot-library/master/img/01.PNG)
 
 ### Get a book by id
 Method : `GET`  
 Endpoint : `http://localhost:8080/book/{id}`
-![get book by id](![02](https://user-images.githubusercontent.com/98227153/216469187-b9286e69-58e8-4074-a2ac-9543f2211d42.png))
-
+![get book by id](https://raw.githubusercontent.com/kucinghitam13/spring-boot-library/master/img/02.PNG)
 
 ### Add new book
 Method : `POST`  
 Endpoint : `http://localhost:8080/book/`
-![add book](![03](https://user-images.githubusercontent.com/98227153/216469432-f56c37da-0310-44ab-8fb9-90b7a2496e5e.png))
+![add book](https://raw.githubusercontent.com/kucinghitam13/spring-boot-library/master/img/03.PNG)
 
 ## MemberController
 Pretty much the same as BookController but with `http://localhost:8080/member/` as its endpoint.
@@ -39,6 +38,4 @@ You only need to specify the borrow ID. It will update the returned date field t
 Method : `PUT`  
 Endpoint : `http://localhost:8080/borrow/`
 ![returning book](https://raw.githubusercontent.com/kucinghitam13/spring-boot-library/master/img/d.PNG)
-#� �L�M�S�_�U�s�i�n�g�-�S�p�r�i�n�g�-�B�o�o�t�
-�
-�
+#
